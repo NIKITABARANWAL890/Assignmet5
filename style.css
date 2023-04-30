@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    padding:0 20px;
+    text-decoration: none;
+    /* color: chocolate; */
+    color:rgb(145, 61, 1);
+    /* font-style: italic; */
+   font-weight: 600;
+}
+ul li a:hover{
+   
+    color: gray;
+}
+ul li a:visited{
+    color: gray;
+}
+
+#image-2{
+ margin-top: 0;
+ margin-right: 20px;
+}
+.logo{
+    margin-top: 30px;
+}
+.input{
+    color: chocolate;
+    font-style: italic;
+    margin-left: 60PX;
+    word-spacing: 5PX;
+    letter-spacing: 1.5PX;
+    margin-top: 50PX;
+}
+.container{
+    justify-content: center;
+}
+.design{
+    /* color:gray; */
+    font-size: 15px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#button1{
+    width: 90px;
+    padding:0 2px;
+     height: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(250,100,0,0.8);
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-left: 60px;
+   
+}
+#button2{
+    width: 90px;
+    padding:0 2px;
+     height: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(250,100,0,0.8);
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+   margin-left: 30px;
+}
+#button2:hover{
+    color: brown;
+}
+#button1:hover{
+    color: brown;
+}
